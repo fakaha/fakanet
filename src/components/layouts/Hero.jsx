@@ -22,6 +22,14 @@ export const Hero = () => {
         <span className='text-xs font-bold tracking-widest text-slate-500 uppercase bg-white px-3.5 py-1.5 rounded-full border border-slate-200 shadow-sm'>
           Kreatif • Inovatif • Terpercaya
         </span>
+
+        <div className='flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-green-500 text-white px-6 py-3 rounded-full shadow-lg shadow-emerald-200'>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6 6h.008v.008H6V6z" />
+          </svg>
+          <span className='text-base font-bold tracking-wide'>Harga mulai dari Rp.500.000</span>
+        </div>
         
         <h2 className='text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.15] max-w-3xl tracking-tight'>
           Mitra Terbaik Dalam Pengembangan{" "}
